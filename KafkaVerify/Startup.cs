@@ -40,10 +40,10 @@ namespace KafkaVerify
             {
                 ProducerConfig config = new()
                 {
-                    BootstrapServers = "pkc-lzvrd.us-west4.gcp.confluent.cloud:9092",
+                    BootstrapServers = "",
                     SecurityProtocol = SecurityProtocol.SaslSsl,
-                    SaslUsername = "AH4TX4OKCUMHI3GV",
-                    SaslPassword = "HnWSuS8/rGaNJwNpliy0lmwUYHWL8+eHYn26GqcOvh9qPTfpzUDiNVKQlhH+ddSb",
+                    SaslUsername = "",
+                    SaslPassword = "",
                     SaslMechanism = SaslMechanism.Plain,
                     MessageSendMaxRetries = 3,
                     RetryBackoffMs = 1000,
